@@ -1,0 +1,29 @@
+# Problem Case — frozen input to a due-diligence run.
+# Freezing mechanism: a case is frozen by COMMITTING it to git. The run references the commit
+# hash. Any edit after a run = a NEW version (bump version:, commit again, rerun all four
+# reviewers). Never compare verdicts across versions as if they were the same case.
+
+case_id: EXAMPLE-001          # stable ID, never reused
+version: v0.1                 # bump on ANY edit
+frozen_commit: ""             # filled by the runner: git hash of the commit containing this file
+author: ""                    # who wrote this case (the conflicted party — name them)
+date: ""                      # when the case was written
+
+customer: ""                  # who has the problem (specific person/segment, not "everyone")
+moment: ""                    # the concrete trigger moment the problem occurs in
+claimed_problem: ""           # what the customer cannot do / suffers, in their words if possible
+proposed_outcome: ""          # what the product would make true for them
+business_claim: ""            # why money flows: who pays, for what, roughly how much, how often
+viral_claim: ""               # (optional) why it spreads without paid acquisition; "" if none
+current_alternatives: []      # what the customer does TODAY in that moment (incl. "nothing")
+critical_unknowns: []         # the author's own list of what they don't know yet
+
+# Evidence pack. Every item follows evidence-rules.md. Reviewers judge ONLY what is in here.
+evidence:
+  - id: E01
+    type: paid | costly-action | stated-intent | attention | analogy   # pick ONE
+    fact: ""                  # one checkable sentence describing what HAPPENED (not an opinion)
+    source: ""                # where it comes from: interview date+initials, log, URL, receipt
+    collected_by: ""          # who gathered it (bias disclosure)
+    n: ""                     # how many people/events this covers
+    limit: ""                 # what this item does NOT establish (mandatory)

@@ -1,0 +1,36 @@
+# Example case (fictional). Copy templates/case-template.yaml for your own.
+case_id: CASE-EXAMPLE-001
+version: v1.0
+author: "example author (the person who wants to build it)"
+date: "2026-08-23"
+
+customer: "owners of small dog-grooming salons in Swiss towns, 1-3 staff"
+moment: "the phone rings during a groom; nobody can pick up; the caller books elsewhere"
+claimed_problem: "salons lose bookings because nobody answers the phone while working"
+proposed_outcome: "an AI phone assistant answers, books the appointment, and sends a confirmation"
+business_claim: "salons pay CHF 79/month; 300 salons within 3 years"
+viral_claim: ""
+current_alternatives:
+  - "voicemail (most callers hang up)"
+  - "online booking link in the Google profile"
+  - "a part-time receptionist (too expensive for 1-3 staff)"
+critical_unknowns:
+  - "how many calls are actually missed per week"
+  - "whether callers would talk to a machine"
+  - "whether the owner would trust it with the calendar"
+
+evidence:
+  - id: E01
+    type: stated-intent
+    fact: "one salon owner said on the phone that she misses calls daily"
+    source: "call with owner, 2026-08-20"
+    collected_by: "example author"
+    n: "1"
+    limit: "one opinion; no missed-call count, no lost booking measured"
+  - id: E02
+    type: attention
+    fact: "a LinkedIn post about the idea got 40 likes and 3 comments"
+    source: "LinkedIn, 2026-08-15"
+    collected_by: "example author"
+    n: "43"
+    limit: "attention from peers, not from salon owners; proves nothing about demand"
