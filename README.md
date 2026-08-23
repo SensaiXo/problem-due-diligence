@@ -122,6 +122,8 @@ the steps below use five of them; the researcher one is optional.
    reviewer files. In each, paste the whole prompt file and replace the `{{CASE}}` line at
    the bottom with your case text. Fresh chats are what makes them blind: none can see the
    others — turn cross-chat memory off if your assistant has it. No web access.
+   **Privacy:** the case goes into an AI chat. Anonymise client names and figures first, and
+   do not paste anything a third party has not agreed to share. Four chats mean four copies.
 3. In a fifth fresh chat, run [prompts/synthesiser.md](prompts/synthesiser.md) with the
    case + all four reports pasted in.
 4. Add one line for the run to your copy of [RUNS.md](RUNS.md) — that file is your own
@@ -130,6 +132,13 @@ the steps below use five of them; the researcher one is optional.
 
 Optional, before freezing: [prompts/umfeld-researcher.md](prompts/umfeld-researcher.md)
 gathers competitors/trends/regulation with sources — its output goes INTO the evidence pack.
+
+## Stuck on the one page?
+
+Writing the case with honest evidence is the hard part; whoever can do it alone needs the
+reviewers least. If you want a second pair of hands, the maintainer writes and runs cases
+with founders: [schnellstart.ai/de/due-diligence](https://schnellstart.ai/de/due-diligence)
+(German, English on request). The tool stays free either way.
 
 ## Provenance
 
