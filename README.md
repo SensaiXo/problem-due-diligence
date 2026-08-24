@@ -5,7 +5,8 @@
 <!-- placeholder: labels still describe code review; final image uses the four lens names below -->
 
 **Feed it a business idea. It tries to kill the idea before reality does — and shows you
-exactly why, with every claim traced to evidence.**
+exactly why, with every claim traced to evidence. Free, open-source idea due diligence
+for founders and indie hackers: frozen case, four lenses, one verdict, cheapest next test.**
 
 Most ideas die after months of building, when the market finally delivers the verdict.
 This engine delivers a verdict in an afternoon, from four independent AI reviewers who
