@@ -6,7 +6,10 @@
 
 **Feed it a business idea. It tries to kill the idea before reality does — and shows you
 exactly why, with every claim traced to evidence. Free, open-source idea due diligence
-for founders and indie hackers: frozen case, four lenses, one verdict, cheapest next test.**
+for founders and indie hackers: frozen case, four lenses, one verdict, cheapest next test.
+It works on any consequential decision, not only new ideas: a spend, a fix, a launch, a
+strategy shift. (On plain code diffs a normal review does better — see the evidence
+summary; this engine earns its keep where claims carry the weight.)**
 
 Most ideas die after months of building, when the market finally delivers the verdict.
 This engine delivers a verdict in an afternoon, from four independent AI reviewers who
